@@ -1,0 +1,17 @@
+-f force
+-m message
+-v remote
+-u reguler 
+upstream = repository kita
+origin = asal repository owner
+main = branch kita
+
+git init
+git clone link
+git add .
+git commit -m "messsage"
+
+git checkout -b 
+git remote -v
+git checkout -b upstream main
+git push -u upstream main
